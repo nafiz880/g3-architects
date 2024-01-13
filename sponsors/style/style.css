@@ -81,7 +81,35 @@ margin: 0 auto;
         padding: 20px;
     }
 }
-    
+    /* main prt */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-contaner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 200px;
 
-    
+}
+.teams-description{
+    padding-left: 90px;
+    /* padding-right: 90px; */
+}
+.teames-title{
+    font-size: 45px;
+}
+.teames-title .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.teames-title .text-fetures{
+    color: #FF900E;
+    font-weight: 700px;
 
+}
